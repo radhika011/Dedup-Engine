@@ -1,0 +1,34 @@
+.backuplist_item_container {
+  height: 20%;
+}
+.listitem-backup {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 2%;
+  height: 100%;
+  border: 0;
+  border-bottom: 1px;
+  border-style: groove;
+}
+.recover__operations {
+  display: flex;
+  flex-direction: row;
+}
+.recover__button {
+  cursor: pointer;
+  background-color: white;
+  color: #1f964b;
+  border: 0px;
+}
+.listitem__text {
+  color: #050c1b;
+  cursor: pointer;
+}
+.listitem__text:hover {
+  color: #2dc464;
+  transform: scale(1.1);
+  transition-duration: 1s;
+}

@@ -1,0 +1,45 @@
+.recover__filter_title {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Nunito", sans-serif;
+  margin-top: 2%;
+}
+.recover__range {
+  border-radius: 10px;
+}
+.recover__search_button {
+  width: 20%;
+  color: #ffffff;
+  cursor: pointer;
+  border: 0;
+  background-image: linear-gradient(45deg, #2dc464, #348d54);
+  font-size: 1.1vw;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+  box-shadow: rgba(5, 5, 5, 0.3) 0px 1px 2px 0px,
+    rgba(0, 0, 0, 0.15) 0px 2px 6px 2px;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 6px;
+}
+.recover__range {
+  padding-top: 1%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+}
+.recover__backup_list {
+  margin: 1% 0;
+  height: 100%;
+  box-shadow: rgba(5, 5, 5, 0.3) 0px 1px 2px 0px,
+    rgba(0, 0, 0, 0.15) 0px 2px 6px 2px;
+}
